@@ -15,7 +15,7 @@ import Success from "./Pages/Success";
 import Failure from "./Pages/Failure";
 import Profile from "./Pages/Profile";
 import ProductDescription from "./Pages/ProductDescription";
-import Footer from "./Components/footer";
+import Footer from "./Components/Footer";
 import Protected from "./Pages/Protected";
 
 const App = () => {
@@ -27,8 +27,10 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/menu" element={<Protected Comp={Menu} />} />
-        <Route path="/ProductDescription/:id"
-          element={<ProductDescription />} />
+        <Route
+          path="/ProductDescription/:id"
+          element={<ProductDescription />}
+        />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Signup" element={<Signup />} />
