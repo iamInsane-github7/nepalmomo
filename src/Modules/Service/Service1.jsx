@@ -1,5 +1,5 @@
 import React from 'react'
-import SerChef from '../../assets/serchef.jpg'
+import SerChef from '../../assets/Serchef.jpg'
 const Service1 = () => {
   return (
 <div className='flex gap-24' >
